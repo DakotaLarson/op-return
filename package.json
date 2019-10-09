@@ -1,0 +1,21 @@
+{
+  "name": "op-return",
+  "version": "1.0.0",
+  "description": "Return transaction and block data with provided OP_RETURN data",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/pg": "^7.11.2"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "node ./build/App.js"
+  },
+  "keywords": [],
+  "author": "Dakota Larson",
+  "license": "ISC"
+}
